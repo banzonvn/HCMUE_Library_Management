@@ -1,5 +1,6 @@
 #include "../include/TienIch.h"
 #include "../include/DanhSachTemplate.h"
+#include "../include/QuanLyPhieuMuon.h"
 #include <iostream>
 
 int main() {
@@ -8,10 +9,8 @@ int main() {
     CTienIch::veLogoHCMUE();
     
     CTienIch::setMau(14);
-    std::cout << "\n[!] KHET NOI THANH CONG KHUNG PROJECT HCMUE LIBRARY!\n\n";
+    std::cout << "\nQUAN LY PHIEU MUON SACH\n";
     CTienIch::setMau(15);
-    
-    std::cout << "Nhan phim bat ky de thoat...";
-    _getch();
+    QuanLyPhieuMuon::chay();
     return 0;
 }
